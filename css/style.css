@@ -17,7 +17,13 @@
 .main {
     max-width: 1366px;
     margin: 0 auto;
-    padding: 0 75px;
+    /* padding: 0 75px; */
+}
+
+.wrapper {
+    max-width: 1256px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* info  */
@@ -289,6 +295,7 @@
     width: 33px;
     border-radius: 50%;
     margin: auto;
+    cursor: pointer;
 }
 
 .products__color-circle_black {

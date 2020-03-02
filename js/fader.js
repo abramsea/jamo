@@ -1,0 +1,1 @@
+$('#studio-8-chevron').click()
