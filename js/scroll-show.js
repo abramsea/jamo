@@ -6,7 +6,7 @@ $(window).scroll(function(){
 
 
 $(window).scroll(function(){
-    if($(window).scrollTop()>800){
+    if($(window).scrollTop()>850){
             $('.advants__item:not(:first-of-type)').css({left: 0});
         } 
     })

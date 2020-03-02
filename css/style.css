@@ -111,7 +111,7 @@
     position: relative;
     left: 0;
     top: 0;
-    transition: all .8s;
+    transition: all .9s;
 }
 
 .advants__item:first-of-type {
@@ -202,6 +202,8 @@
 
 .series__more {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .series__link {
@@ -210,6 +212,10 @@
     color: #818181;
     display: block;
     margin: 30px 0 0 0;
+}
+
+.series__link:not(:first-of-type) {
+    margin: 30px 0 0 20px;
 }
 
 .series__link:hover {
@@ -397,14 +403,16 @@
         padding: 40px 0;
     }
 
-    .wrapper {
-        padding: 0;
-    }
-    
+   
 
 }
 
 @media all and (max-width: 1200px) {
+
+    .wrapper {
+        padding: 0 40px;
+    }
+
     .advants__item {
         flex-direction: column;
     }
@@ -437,6 +445,10 @@
 @media all and (max-width: 850px) {
     .main {
         padding: 0 40px;
+    }
+
+    .wrapper {
+        padding: 0;
     }
 
     .info {
@@ -595,6 +607,11 @@
     .series__link {
         margin: 15px 0 0 0;
     }
+
+    .series__link:not(:first-of-type) {
+        margin: 15px 0 0 10px;
+    }
+    
 
     .series__title {
         font-size: 26px;
