@@ -3,7 +3,6 @@
 @import "back-to-top.css";
 
 @keyframes spring {
-
     50% {
         transform: scale(1.4);
     }
